@@ -1,4 +1,66 @@
+/*se
 body{
     background-color: rgba(47, 0, 255, 0);
+}*/
+
+h1
+{
+    color: green;
 }
-]
+
+p{
+    background-color: yellow;
+}
+
+p.even {
+    background-color: blue;
+}
+
+.even {
+background-color: indigo;
+}
+
+.odd {
+    background-color: red;
+}
+
+p {
+    background-color: green;
+}
+
+#first-p {
+    background-color: brown;
+}
+
+/* h1{
+    background-color: blueviolet;
+    font-size: 4rem;
+}
+
+h2{
+    background-color: blueviolet; 
+    font-size: 4rem;
+}*/
+
+h1, h2 {
+    background-color: blueviolet; 
+    font-size: 4rem; 
+}
+
+/* ---------COMBINATOR SELECTORS-------- */
+
+div h1 {
+font-size: 1rem; background-color: chocolate;
+}
+
+div > h1 {
+    font-size: 34px; background-color: fuchsia;
+}
+
+h1 ~ p {
+    color: gold;
+}
+
+h1 + p {
+    color: chartreuse;
+}

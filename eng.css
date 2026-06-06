@@ -1,0 +1,59 @@
+
+.we {
+    float: ;
+    width: 80px;
+}
+
+.it {
+    float: ;
+    padding: 0;
+    margin: 0;
+    height: 21px;
+}
+
+nav {
+    margin: 50px;
+    padding: 15px;
+    border: 50px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.me {
+    height: 200px;
+    width: 200px;
+    padding: 0;
+    border-radius: 100px;
+
+}
+body{
+    background-color: black;
+    img {
+        width: 1100px; height: 500px;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    h1 {
+        color: white;
+    }
+    h2 {
+        color: white;
+    }
+    ol {
+        color: white;
+    }
+
+    /* #hero-section > li {
+        color: white;
+    } */
+   
+    a {
+        color:rgba(0, 174, 255, 0.902) 
+    }
+
+
+}

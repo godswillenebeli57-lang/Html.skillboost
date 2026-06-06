@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: red; */
+  /* background-color: rgb(76, 8, 235); */
+  /* background-color: #4c08eb; */
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#hero-section {
+  height: 80vh;
+  /* background-color: green; */
+  /* background-image: url(jellof\ 1.jpg); */
+  /* background: linear-gradient(red, blue, orange); */
+  background:
+    linear-gradient(rgba(255, 0, 0, 0.2), rgba(0, 0, 255, 0.3)),
+    url(./jellof\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 50%; */
+}
+#hero-section > p {
+/* background: linear-gradient(red, blue,);
+    font-size: 3rem;
+    background-clip: text;
+} */
+
+/* color: black;
+font-size: 48pt;
+font-weight: bolder;
+font-style: italic;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+
+font-size: 5rem;
+font-family: "ole", cursive;
+font-weight: 700;
+text-align: center;
+
+}
